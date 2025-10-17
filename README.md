@@ -7,3 +7,4 @@ This line was edited locally againn.
 Making another local edit.
 
 Modifying for Task 4
+Adding a new line for Task 6
