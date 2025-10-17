@@ -2,7 +2,5 @@
 Local line 2 added from PC.
 Remote line 2 added from GitHub.
 
-Making another remote edit on Github.
-
-
+This line was updated remotely again.
 Making another local edit.
