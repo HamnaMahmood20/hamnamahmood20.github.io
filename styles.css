@@ -1,35 +1,37 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
   color: #333;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .cv-container {
   max-width: 900px;
-  margin: auto;
+  margin: 30px auto;
   background: #fff;
-  padding: 30px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 30px 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.profile {
+.profile-header {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-right: 20px;
   object-fit: cover;
+  margin-right: 25px;
 }
 
 .profile-info h1 {
   margin: 0;
   font-size: 28px;
+  color: #222;
 }
 
 .profile-info h3 {
@@ -45,24 +47,24 @@ body {
 }
 
 hr {
-  border: 0;
-  border-top: 2px solid #333;
-  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 25px 0;
 }
 
 section h2 {
   color: #007acc;
   margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
 }
 
-.experience, .education {
+.experience, .education, .skills-list, .projects-list, .languages {
   margin-left: 20px;
 }
 
 .exp-item, .edu-item {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .exp-date, .edu-date {
@@ -71,7 +73,6 @@ section h2 {
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: disc;
   padding-left: 20px;
 }
-
